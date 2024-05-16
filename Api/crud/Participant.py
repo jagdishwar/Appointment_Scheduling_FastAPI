@@ -1,9 +1,9 @@
 from fastapi import HTTPException
-from Api.models.Participant import Participant
-from Api.models.User import User
-from Api.models.Meeting import Meeting as MeetingModel
-from Api.crud import Meeting
-import Api.schema
+from models.Participant import Participant
+from models.User import User
+from models.Meeting import Meeting as MeetingModel
+from crud import Meeting
+import schema as schema
 from .Timezone import *
 
 

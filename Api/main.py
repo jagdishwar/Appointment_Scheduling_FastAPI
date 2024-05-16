@@ -2,7 +2,9 @@ from fastapi import FastAPI
 from typing import List
 import schema
 from fastapi.responses import RedirectResponse
+
 from crud import User as Users
+
 app = FastAPI()
 @app.get("/")
 async def docs_redirect():

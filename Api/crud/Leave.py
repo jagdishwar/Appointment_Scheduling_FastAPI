@@ -1,7 +1,7 @@
 from fastapi import HTTPException
-from Api.models.Availability import Availability
-from Api.models.User import User
-import Api.schema.py
+from models.Availability import Availability
+from models.User import User
+import schema
 from .Timezone import *
 
 def get_all():

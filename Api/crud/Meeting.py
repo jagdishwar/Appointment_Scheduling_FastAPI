@@ -1,9 +1,9 @@
 from fastapi import HTTPException
-from Api.models.Meeting import Meeting as Meetings
-from Api.models.User import User
-import Api.schema
+from models.Meeting import Meeting as Meetings
+from models.User import User
+import schema
 from .Timezone import *
-from Api.crud.Participant import *
+from crud.Participant import *
 
 def get_all():
     meetings = Meetings.all()
